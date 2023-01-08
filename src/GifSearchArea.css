@@ -1,2 +1,35 @@
-#gifSearchArea{
+#searchForm{
+  position: relative;
+  width: fit-content;
+  margin: auto;
+}
+#searchForm > input[name=searchTerm]:active,
+#searchForm > input[name=searchTerm]:focus{
+  border: none;
+  outline: none;
+}
+#searchForm > input[name=searchTerm]{
+  padding: 0.5rem 1rem;
+  width: 200px;
+  height: 25px;
+  color: white;
+  border: none;
+  background: none;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+#searchForm > input[type=submit]{
+  position: absolute;
+  padding: 0;
+  width: 50px;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0 20px 20px 0;
+  height: calc(25px + 1rem);
+}
+#searchForm > input[type=submit]:active{
+  background-color: rgba(255, 255, 255, 0.3);
 }

@@ -1,0 +1,21 @@
+.star-area{
+  position: absolute;
+  bottom: 0;
+  
+  width: 100vw;
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.star-content{
+  width: 80%;
+  margin: auto;
+}
+.favourite-gifs{
+  display: flex;
+  gap: 1rem;
+}
+.favourite-gifs > img{
+  width: 100px;
+  height: 63px;
+  object-fit: cover;
+}
